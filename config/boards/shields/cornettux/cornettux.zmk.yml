@@ -3,7 +3,7 @@ id: cornettux
 name: cornettux
 type: shield
 url: https://github.com/lbourne43/zmk-config-cornettux/
-requires: [nice!nanov2]
+requires: [nice_nano_v2]
 features:
   - keys
 siblings:
