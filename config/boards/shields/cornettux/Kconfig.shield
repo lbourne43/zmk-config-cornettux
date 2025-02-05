@@ -1,0 +1,7 @@
+# No whitespace after the comma or in your part name!
+config SHIELD_CORNETTUX_LEFT
+    def_bool $(shields_list_contains,cornettux_left)
+
+# No whitespace after the comma or in your part name!
+config SHIELD_CORNETTUX_RIGHT
+    def_bool $(shields_list_contains,cornettux_right)
