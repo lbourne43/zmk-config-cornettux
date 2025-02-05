@@ -33,13 +33,6 @@
     chosen {
         zmk,physical-layout = &physical_layout0;
         // Other chosen items
-    };
-};
 
-/ {
-
-    &physical_layout0 {
-        kscan = <&kscan0>;
-        transform = <&matrix_transform>;
     };
 };
