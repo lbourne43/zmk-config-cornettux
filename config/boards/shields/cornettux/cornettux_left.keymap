@@ -16,16 +16,6 @@
             >;
         };
 
-        under_layer {
-            bindings = <
-                &kp ESC       &kp Q     &kp UP    &kp E      &kp R     &kp T
-                &bootloader   &kp LEFT  &kp DOWN  &kp RIGHT  &kp F     &kp G
-                &kp LSHFT     &kp Z     &kp X     &kp C      &kp V     &kp B
-                                                             &kp SPACE &kp RCTRL
-                                                             &mo 1     &mo 2
-            >;
-        };
-
         bt_layer {
             bindings = <
                 &bootloader &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
