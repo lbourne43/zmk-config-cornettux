@@ -7,7 +7,7 @@
 // Label of the kscan node in the dtsi
 &kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "default_kscan";
+        label = "kscan0";
         diode-direction = "col2row";
 
         col-gpios = <&pro_micro 18 (GPIO_ACTIVE_HIGH)>,
