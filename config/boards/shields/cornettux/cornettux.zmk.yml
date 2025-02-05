@@ -1,9 +1,9 @@
 file_format: "1"
 id: cornettux
-name: cornettux
+name: CORNETTUX
 type: shield
 url: https://github.com/lbourne43/zmk-config-cornettux/
-requires: [nice_nano_v2]
+requires: [pro_micro]
 features:
   - keys
 siblings:
