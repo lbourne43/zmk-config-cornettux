@@ -27,8 +27,9 @@
                                             RC(4,4) RC(4,5)    RC(4,6) RC(4,7)
         >;
     };
+};
 
- / {
+/ {
     chosen {
         zmk,physical-layout = &physical_layout0;
         // Other chosen items
