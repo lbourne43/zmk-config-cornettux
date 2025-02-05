@@ -31,7 +31,7 @@
 
 / {
     chosen {
-        zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &cornettux_physical_layout;
         // Other chosen items
     };
 };
